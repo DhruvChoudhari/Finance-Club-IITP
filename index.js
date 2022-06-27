@@ -23,7 +23,6 @@ app.use(
   })
 )
 
-// Changes made
 app.use(flash())
 
 app.use(bodyParser.urlencoded({ extended: false }))
